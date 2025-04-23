@@ -1,9 +1,7 @@
-import Sidebar from "./components/Sidebar";
-
 export default function Home() {
   return (
-    <main>
-      <Sidebar />
-    </main>
+    <div>
+      <h1>Welcome to Mently</h1>
+    </div>
   );
 }

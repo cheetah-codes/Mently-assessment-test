@@ -85,7 +85,6 @@ const LogoContainer = () => {
 
 const NavigationContainer = () => {
   const pathname = usePathname();
-  console.log(pathname);
   const navLinks = [
     { path: "/", name: "Dashboard", icon: <Icons.DashboardIcon /> },
     { path: "/programs", name: "Programs", icon: <Icons.ProgramIcon /> },
